@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.mmt.qa.test.Search_Flights_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
