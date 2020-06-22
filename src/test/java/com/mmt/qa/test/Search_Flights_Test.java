@@ -45,7 +45,7 @@ public class Search_Flights_Test extends MMT_Base {
 
 	}
 
-	@Test(description = "select flight test", priority = 2, enabled = false, dependsOnMethods = { "validateSearchFlightTest" })
+	@Test(description = "select flight test", priority = 2, enabled = true, dependsOnMethods = { "validateSearchFlightTest" })
 	public void validateSelectFlightPriceTest() throws IOException, InterruptedException {
 		log.info("**Start Select_Flight_AirAsia_Page -> validateSelectFlightPriceTest**");
 		searchAirAsiaFlight = new Select_Flight_AirAsia_Page();
