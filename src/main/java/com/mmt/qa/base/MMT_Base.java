@@ -38,6 +38,7 @@ public class MMT_Base {
 
 	public static Logger log = Logger.getLogger("**<--Log4j app logs-->**");
 
+	//Base class constructor to read properties file
 	public MMT_Base() {
 		try {
 			prop = new Properties();
